@@ -1,9 +1,9 @@
 import DefaultLayout from '../components/DefaultLayout';
-import { Text } from '@chakra-ui/react';
+import TransferForm from '../components/TransferForm';
 
 const Home = () => (
   <DefaultLayout>
-    <Text fontSize="md">Main</Text>
+    <TransferForm />
   </DefaultLayout>
 );
 
