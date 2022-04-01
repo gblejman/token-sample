@@ -1,7 +1,7 @@
-import { Container, Flex, Button, ButtonGroup, Stack } from '@chakra-ui/react';
-import { Icon } from '@chakra-ui/react';
+import { Container, Flex, Button, Icon, Stack } from '@chakra-ui/react';
 import { FaBolt } from 'react-icons/fa';
 import Logo from '../components/logo';
+import ToggleColorButton from './ToggleColorButton';
 
 const Header = () => (
   <Container as="header" maxW="container.lg">
@@ -9,6 +9,7 @@ const Header = () => (
       <Logo />
 
       <Stack direction="row" spacing={4} align="center">
+        <ToggleColorButton colorScheme="teal" variant="outline" />
         <Button
           leftIcon={<Icon as={FaBolt} />}
           colorScheme="teal"
