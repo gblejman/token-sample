@@ -1,6 +1,6 @@
 import { VStack, HStack, ButtonGroup, Button, Text } from '@chakra-ui/react';
-import AddressInput from './form/AddressInput';
-import AmountInput from './form/AmountInput';
+import AddressInput from '@components/form/AddressInput';
+import AmountInput from '@components/form/AmountInput';
 
 const TransferForm = () => {
   return (

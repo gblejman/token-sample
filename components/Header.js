@@ -1,6 +1,6 @@
 import { Container, Flex, Button, Icon, Stack } from '@chakra-ui/react';
 import { FaBolt } from 'react-icons/fa';
-import Logo from '../components/logo';
+import Logo from '@components/logo';
 import ToggleColorButton from './ToggleColorButton';
 
 const Header = () => (
